@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #000;
+    align-items: center;
+    justify-content: center;
+}
+.head{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.display{
+    display: flex;
+    grid-row: 20px;
+    grid-column: auto;
+    width: auto;
+}
+.list{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.item{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    padding: 5px;
+    height: 300px;
+}
+.item div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30px;
+}
+.img{
+    width: auto;
+    height: 80%;
+}
